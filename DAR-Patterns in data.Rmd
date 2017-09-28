@@ -33,7 +33,9 @@ Our Research Question is:
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
-
+What methods are appropriate for analyzing our data? The choice depends on the type of variables we are researching with our Research Question.  
+**Weight and Pushups** are numerical variables  
+**Position** is a factor variable
 
 
 
