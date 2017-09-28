@@ -41,6 +41,7 @@ Our Research Question is:
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
+I have both graphical and numerical methods, so I have both graphical and numerical results. 
 
 
 ## Graphical Results
