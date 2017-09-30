@@ -14,16 +14,14 @@ require(tigerstats)
 
 # Introduction
 
-Several years ago some MAT 111 students who were on the footbal team conducted a study of their team-mates.  The results are contained in the data frame `pushups` in the `tigerstats` package.
-The "tigerstats" data frame includes 30 observations on three variables. The three variables are weight, pushups, and position. The weight variable is the weight of each subect in pounds. The pushups variable is the number of pushups completed by each subject. The position variable is the type of position played by the subject. It is either "line" or "skill". Line positions requre high body mass and skill positions require a lot of running. 
+Several years ago some MAT 111 students who were on the footbal team conducted a study of their team-mates.  The results are contained in the data frame `pushups` in the `tigerstats` package.Among other things, the students recorded the type of position a player had on the team (either line or skill), and also the number of push-ups each player could perform in a two-minute period.
+The "tigerstats" data frame includes 30 observations on three variables. The three variables are weight, pushups, and position. The weight variable is the weight of each subect in pounds. The pushups variable is the number of pushups completed by each subject. The position variable is the type of position played by the subject. It is either "line" or "skill". Line positions require high body mass and skill positions require a lot of running. 
 
 ```{r eval=FALSE}
 data(pushups)
 View(pushups)
 help(pushups)
 ```
-
-Among other things, the students recorded the type of position a player had on the team (either line or skill), and also the number of push-ups each player could perform in a two-minute period.
 
 Line players are on the offensive or defensive line.  They need to be a certain kind of speed, but they must also be quite big and strong.  Skill players do a lot of running and catching:  they are the quarterback, running backs, receivers, etc.
 
