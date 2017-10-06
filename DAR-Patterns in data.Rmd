@@ -46,7 +46,8 @@ I have both graphical and numerical methods, so I have both graphical and numeri
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
-The following is the graph comparing the number of pushups done, seperated by position.  
+The following is the graph comparing the number of pushups done, seperated by position. Position is the x-axis, and number of pushups is the y-axis. 
+
 ```{r}
 bwplot(pushups ~ position,
 	data = pushups,
@@ -56,10 +57,15 @@ bwplot(pushups ~ position,
 	ylab = "Number of Pushups Completed")
 ```
 
+The alignment of each of the boxes make it easy to see that the number of pushups completed by the LINE players is significantly lower than the number of pushups completed by the SKILL players. 
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(pushups~position, data=pushups)
+```
+There were 22 SKILL players and 8 LINE players in this study. SKILL players appear to be able to complete more pushups on average in a two minute time frame:the median for SKILL players is 47.5 pushups, compared to the LINE players with a median of 14.5. As well as the mean: the mean for SKILL players is 49.72727, while the mean for LINE players is 17.12500.
 
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
