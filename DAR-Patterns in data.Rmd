@@ -32,12 +32,22 @@ Our Research Question is:
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+What methods are appropriate for analyzing our data? The choice depends on the type of variables we are researching with our Research Question.  
 
+**Weight and Pushups** are numerical variables  
+**Position** is a factor variable.  
 
-
-
-
-
+ Weight and pushups are numerical variables.
+  This makes sense and is proven by looking in the help tab. Also, by looking at the data frame "pushups" you can see that the values of the variables "weight", and "pushups" are numbers.  
+  
+  Position is a factor variable where there are only two options for the value of this variable. Either the value is LINE or it is SKILL. This value is the type of position played by the subject. This can be confirmed through the help tab or through the data frame "pushups".    
+  
+  A good way in analyzing these variables to determine whether a line player or a skill player does more pushups would be using a bar chart graph. I will make a bar chart with "position" as the x-axis and "pushups" as its y-axis.   
+  
+  A good numerical way to analyze these variables is using the mean as well as the median for each position and comparing the results of the two.  
+  
+  Both methods, graphical and numerical, have been chosen. The following are the results acquired using these methods.    
+  
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
 
