@@ -64,9 +64,8 @@ The output of the ttest is as follows:
 ```{r}
 t.test(pushups~position, data=pushups)
 ```
-
-
-
+According to the extremely small p-value, the chances the null hypothesis would result to be TRUE
+are almost nonexistant. This low p-value suggests that our sample provides enough evidence that we can **reject our null hypothesis**.
 
 
 # Discussion and Conclusion
