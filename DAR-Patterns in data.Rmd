@@ -57,4 +57,4 @@ Our Research Question is:
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
-
+*Both my numerical and graphical results indicate that SKILL players are able to do more pushups in a two minute interval, on average than LINE players.* It is still only one sample from Georgetown College. It may differ from school to school, as their training and fitness level may differ. It is still a question as to whether this data is strong enough to conlude that the results from this sample is the a true representation of the population of all LINE and SKILL players at large. 
