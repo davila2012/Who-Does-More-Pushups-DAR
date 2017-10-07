@@ -62,7 +62,7 @@ Our Research Question is:
 
 The output of the ttest is as follows:
 ```{r}
-t.test()
+t.test(pushups~position, data=pushups)
 ```
 
 
