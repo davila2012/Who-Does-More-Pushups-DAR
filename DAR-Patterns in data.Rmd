@@ -50,7 +50,7 @@ What methods are appropriate for analyzing our data? The choice depends on the t
   
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
-I have both graphical and numerical methods, so I have both graphical and numerical results. 
+I have both graphical and numerical methods, so I have both graphical and numerical results. The Results are as follows:
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
@@ -84,13 +84,13 @@ There were 22 SKILL players and 8 LINE players in this study. SKILL players appe
 *My alternate hypothesis is:*  
 **H~a~** : There IS a difference between the number of pushups completed by SKILL players and the number of pushups completed by LINE players.  
 
-
-The output of the ttest is as follows:
 ```{r}
-t.test()
+t.test(pushups~position, data=pushups)
+
 ```
 
-
+According to the extremely small p-value, the chances the null hypothesis would result to be TRUE
+are almost nonexistant. This low p-value suggests that our sample provides enough evidence that we can **reject our null hypothesis**.
 
 
 
